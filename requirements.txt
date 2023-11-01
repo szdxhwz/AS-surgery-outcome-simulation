@@ -1,0 +1,10 @@
+open3d
+jittor
+numpy
+Pillow
+scipy
+tensorboard
+tensorboardx
+tqdm
+trimesh
+pymeshlab

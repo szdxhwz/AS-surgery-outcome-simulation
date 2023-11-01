@@ -1,0 +1,3 @@
+newmtl texture_mesh
+Kd 0.75 0.75 0.75
+map_Kd texture_mesh.png

@@ -1,0 +1,11 @@
+python3 train_seg.py train \
+--name qz \
+--dataroot ./data/qz_1_dataset/ \
+--upsample bilinear \
+--batch_size 4 \
+--parts 4 \
+--augment_scale \
+--augment_orient \
+--lr 2e-3 \
+--arch unet \
+--backbone resnet50
