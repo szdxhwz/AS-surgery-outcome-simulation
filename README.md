@@ -20,7 +20,7 @@ This module mainly includes three functions: model segmentation, model registrat
 
 ## Usage
 
-We have created a video to introduce the use of the module ([Module demo.mp4](https://www.youtube.com/watch?v=03WNj2pbsAs)), please follow the video process to operate.
+We have recorded a video to introduce the use of the module ([Module demo.mp4](https://www.youtube.com/watch?v=03WNj2pbsAs)), please follow the video to operate the module.
 
 
 ## Example data
