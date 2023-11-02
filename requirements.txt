@@ -2,8 +2,7 @@ open3d
 numpy
 Pillow
 scipy
-tensorboard
-tensorboardx
+pycpd
 tqdm
 trimesh
 pymeshlab
