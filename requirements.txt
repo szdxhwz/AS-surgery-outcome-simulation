@@ -1,5 +1,4 @@
 open3d
-jittor
 numpy
 Pillow
 scipy
