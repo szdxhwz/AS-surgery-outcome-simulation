@@ -8,11 +8,11 @@ AS Simulation is an open platform for the simulation of postoperative whole-body
 
 ## Installation
 
-Import the module into the 3D Slicer. Install python requirements in Slicer according to requirements.txt.  This can be done in the Slicer Python console with, e.g.,
+Import the module into the 3D Slicer. Install python requirements in Slicer according to [requirements.txt](https://github.com/szdxhwz/AS-surgery-outcome-simulation/blob/main/requirements.txt).  This can be done in the Slicer Python console with, e.g.,
 ```
 pip_install ("open3d")
 ```
-Clip and paste the serverCode folder onto the server,Change the server address in the As_Simulation.py and predict.py to your own server address.
+Clip and paste the [serverCode](https://github.com/szdxhwz/AS-surgery-outcome-simulation/tree/main/serverCode) folder onto the server,Change the server address in the [As_Simulation.py](https://github.com/szdxhwz/AS-surgery-outcome-simulation/blob/main/As_Simulation/As_Simulation.py) and [predict.py](https://github.com/szdxhwz/AS-surgery-outcome-simulation/blob/main/serverCode/SubdivNet-master/predict.py) to your own server address.
 
 
 ## Modules
@@ -20,8 +20,9 @@ This module mainly includes three functions: model segmentation, model registrat
 
 ## Usage
 
-We have created a video to introduce the use of the module ([Module demo.mp4](https://github.com/szdxhwz/AS-surgery-outcome-simulation/blob/main/Module%20demo.mp4)), please follow the video process to operate.
+We have created a video to introduce the use of the module ([Module demo.mp4](https://www.youtube.com/watch?v=03WNj2pbsAs)), please follow the video process to operate.
 
 
 ## Example data
-The sample data is in the test_data folder, where the Preoperative_data folder contains the patient's preoperative 3D mesh, and the Postoperative_data folder contains the patient's postoperative 3D mesh. To protect patient privacy, the patient's face has been blurred. You can simulate the preoperative data and compare it with the postoperative data.
+The sample data is in the [test_data](https://github.com/szdxhwz/AS-surgery-outcome-simulation/tree/main/test_data) folder, where the [Preoperative_data](https://github.com/szdxhwz/AS-surgery-outcome-simulation/tree/main/test_data/Preoperative_data) folder contains the patient's preoperative 3D mesh, and the [Postoperative_data](https://github.com/szdxhwz/AS-surgery-outcome-simulation/tree/main/test_data/Preoperative_data) folder contains the patient's postoperative 3D mesh. To protect patient privacy, the patient's face has been blurred. You can simulate the preoperative data and compare it with the postoperative data.
+
