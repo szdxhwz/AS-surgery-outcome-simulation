@@ -8,7 +8,7 @@ AS Simulation is an open platform for the simulation of postoperative whole-body
 
 ## Installation
 
-Import the module into the 3D Slicer. Install python requirements in Slicer according to [requirements.txt](https://github.com/szdxhwz/AS-surgery-outcome-simulation/blob/main/requirements.txt).  This can be done in the Slicer Python console with, e.g.,
+Import the module into the 3D Slicer. Install python libraries in Slicer according to [requirements.txt](https://github.com/szdxhwz/AS-surgery-outcome-simulation/blob/main/requirements.txt).  This can be done in the Slicer Python console with, e.g.,
 ```
 pip_install ("open3d")
 ```
