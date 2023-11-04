@@ -4,7 +4,7 @@
 
 In the surgical planning for ankylosing spondylitis (AS), the simulation of postoperative whole-body posture is very helpful for surgeons to obtain a global estimation of the outcome. We proposed a method that integrates the 3D body surface and the CT volumetric data to facilitate surgery outcome simulations for individuals diagnosed with AS. Firstly, we captured 3D body surface information from AS patients using a depth-sensing camera system. Subsequently, we designed and implemented a surface-to-volume pipeline to register the torso surface region and the CT data. With them registered, the surgical plan formulated by the surgeons in the CT volumetric data can then be transferred to the 3D surface. Finally, in order to obtain a realistic 3D surface after the surgery, the log-Euclidean transformation scheme was adopted. Our approach offers the advantage of intuitively demonstrating the anticipated surgical corrections.
 
-AS Simulation is an open platform for the simulation of postoperative whole-body. Thanks to the openess of Slicer, the BigImage extension could also be further extended by you.
+AS Simulation is an open platform for the simulation of postoperative whole-body. Thanks to the openess of Slicer, the AS Simulation extension could also be further extended by you.
 
 ## Installation
 
